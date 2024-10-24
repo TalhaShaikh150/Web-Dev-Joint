@@ -1,0 +1,96 @@
+:root{
+  --theme-color: #74C69D;
+}
+
+/* Hide scrollbar for Webkit-based browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+/*Sadiq's Code*/
+.hero-1 {
+  background-color: var(--theme-color);
+  height: 100vh;
+  color: white;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .group-img {
+    height: 200px;
+    width: 340px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .group-img {
+    height: 380px;
+    width: 650px;
+  }
+}
+
+.logo {
+  height: 40px;
+  width: 50px;
+}
+
+.explore-btn {
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/*Talha's Code*/
+body ,p{
+  font-family: 'Nunito', sans-serif; /* or 'Poppins', sans-serif */
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #212529;
+  font-family: 'Crimson Pro', serif;
+  cursor: pointer;
+}
+h4{
+  cursor: pointer;
+  font-family: 'Crimson Pro', serif;
+  color: var(--theme-color);
+}
+
+.margin-l{
+  margin-left: 100px;
+}
+
+.btn-dark{
+  background-color: #212529;
+}
+.card {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 
+  0 4px 10px rgba(0, 0, 0, 0.08); /* Adds shadow effect */
+  border-radius: 8px; /* Adds smooth corners */
+  padding: 10px 20px;
+  background-color: #fff; /* Ensure the background is white */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-20px);  
+  transition: 0.3s ease-in-out;
+}
+.bg-custom{
+
+  background-color: var(--theme-color);
+}
+
+i{
+  cursor: pointer;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 25px;
+}
+i:hover{
+  transition: 0.3s;
+  color: black;
+}

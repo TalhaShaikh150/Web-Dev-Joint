@@ -1,0 +1,31 @@
+.hero-1 {
+  background-color: #74c69d;
+  height: 100vh;
+  color: white;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .group-img {
+    height: 200px;
+    width: 340px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .group-img {
+    height: 380px;
+    width: 650px;
+  }
+}
+
+.logo {
+  height: 40px;
+  width: 150px;
+}
+
+.explore-btn {
+    border: none;
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+}
