@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FaceBook Form</title>
+</head>
+<style>
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+                font-family: 'Helvetica Neue', Arial, sans-serif;
+      }
+      h1{
+        font-size: 4em;
+      }
+      .main {
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+      }
+      .left{
+        vertical-align: top;
+        margin-top: 4%;
+        display: inline-block;
+      }
+      .right{
+        margin-left: 10%;
+        display: inline-block;
+      }
+        .input-box{
+          text-align: center;
+          padding: 20px 20px;
+          border-radius: 10px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        input{
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          border-radius: 4px;
+          width: 300px;
+          height: 40px;
+          padding-left: 10px;
+        }
+        .email{
+          margin-bottom: 10px;
+        }
+        .login-btn{
+          background-color: #1877F2;
+          margin-bottom: 50px;
+          padding: 10px 120px;
+          border: none;
+          color: white;
+          font-size: 1.2em;
+          border-radius:4px;
+          margin: 10px 0px;
+          cursor: pointer;
+        }
+        .login-btn:hover{
+          background-color: #1862c2;
+          
+        }
+        .account-btn{
+          cursor: pointer;
+          color: #fff;
+          font-size: 1.2em;
+          background-color: #3FB626;
+          border: none;
+          border-radius:4px;
+          font-size: 1em;
+          padding: 15px 20px;
+        }
+        .account-btn:hover{
+          background-color: #338f20;
+        }
+        hr{
+          margin: 20px 10px;
+        }
+        a{
+          color: #1877F2;
+          text-decoration: none;
+        }
+        
+        p{
+          font-size: 1.2em;
+          text-align: justify;
+        }
+</style>
+<body>
+  <div class="main">
+    <div class="left">
+      <h1 style="color: #1877F2;">facebook</h1>
+      <p>Connect with friends and the world <br> around you on facebook</p>
+    </div>
+
+    <div class="right">
+      <div class="input-box">
+        <input type="text" class="email" placeholder="Email or phone number">
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <button class="login-btn">Login</button>
+        <br>
+        <a href="" class="forget">Forgot password?</a>
+        <hr>
+        <button class="account-btn">Create New Account</button>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
